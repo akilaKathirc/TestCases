@@ -21,6 +21,11 @@ import { DropDownsModule } from '@progress/kendo-angular-dropdowns';
 import {TitleService} from './title.service';
 import 'hammerjs';
 import { HideColumnComponent } from './hide-column/hide-column.component';
+import { AngularAimationsComponent } from './angular-aimations/angular-aimations.component';
+import { FirstchildComponent } from './firstchild/firstchild.component';
+import { HomeComponent } from './home/home.component';
+import { SecondComponent } from './second/second.component';
+import { SecondchildComponent } from './secondchild/secondchild.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +36,12 @@ import { HideColumnComponent } from './hide-column/hide-column.component';
     CustomEditingComponent,
     PopupAnchorDirective,
     KendoDDLComponent,
-    HideColumnComponent
+    HideColumnComponent,
+    AngularAimationsComponent,
+    FirstchildComponent,
+    HomeComponent,
+    SecondComponent,
+    SecondchildComponent
   ],  
       schemas: [
         CUSTOM_ELEMENTS_SCHEMA
